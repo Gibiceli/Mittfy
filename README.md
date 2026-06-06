@@ -19,6 +19,7 @@ Para que la aplicación pueda procesar las búsquedas sin bloqueos, necesitamos 
 - **MUY IMPORTANTE:** Toma ese archivo `yt-dlp.exe` que acabas de descargar y **pégalo dentro de la carpeta del proyecto**, justo al lado del archivo `server.js`.
 
 #### 3. Instalar las dependencias
-Abre la terminal de tu sistema (puedes usar PowerShell o la terminal de VS Code) dentro de la carpeta del proyecto y ejecuta el siguiente comando para descargar los paquetes necesarios:
+Abre la terminal de tu sistema (puedes usar PowerShell o la terminal de VS Code) dentro de la carpeta del proyecto y ejecuta el siguiente comando para descargar los paquetes necesarios. Despues ejecuta el servidor
 ```bash
 npm install
+node server.js
